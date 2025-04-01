@@ -12,7 +12,16 @@ ms.author: billmath
 
 # Hardening update to Microsoft Entra Connect Sync from April 7, 2025 
 
-In October 2024, we released new versions (2.4.xx.0) of Microsoft Entra Connect Sync. These versions contain a back-end service change that further hardens our services. **All customers are required to upgrade** to the [minimum versions](#minimum-versions) by **April 7, 2025**. 
+In October 2024, we released new versions (2.4.xx.0) of Microsoft Entra Connect Sync. These versions contain a back-end service change that further hardens our services. **All customers are required to upgrade** to the [minimum versions](#minimum-versions) by **April 7, 2025**(Now extended to 30th april) 
+
+Customers might recieve the notification email with the extended date as below:
+"To keep the Microsoft Entra Connect wizard working seamlessly, all customers are required to upgrade to the following minimum versions by 30 April 2025:
+
+Customers in the commercial cloud: 2.4.18.0 or any newer version (see version history)
+
+The deadline has been extended by 3 weeks from the earlier communicated date of 7 April 2025. However, if you are not yet on a minimum supported version of Microsoft Entra Connect, you'll experience the following impacts after the original date:
+
+After 7 April 2025, configuration of ADFS and PingFederate scenarios through the Microsoft Entra Connect wizard will stop working.After 30 April 2025, authentication requests to Entra ID from the Microsoft Entra Connect wizard will fail.
 
 
 ## Expected impacts 
